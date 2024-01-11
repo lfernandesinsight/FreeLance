@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argos Transportes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark">
+        <h1 class="text-white">Argos Transportes</h1>
+    </header>
+
+    <div class="container">
+        <section id="missao">
+            <h2>Missão</h2>
+            <p>Nossa missão é proporcionar soluções logísticas integradas com eficiência, segurança e inovação, superando as expectativas de nossos clientes e contribuindo para o crescimento sustentável de seus negócios.</p>
+        </section>
+
+        <section id="valores">
+            <h2>Valores</h2>
+            <p>Nossos valores incluem compromisso com a excelência, integridade, inovação e responsabilidade social.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Transporte Rodoviário</li>
+                <li>Logística Integrada</li>
+                <li>Armazenagem e Distribuição</li>
+                <li>Transporte de Cargas Especiais</li>
+            </ul>
+        </section>
+
+        <section id="fale-conosco">
+            <h2>Fale Conosco</h2>
+            <form action="/processar-formulario" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white">
+        &copy; 2023 Argos Transportes. Todos os direitos reservados.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
